@@ -5,7 +5,7 @@ import { BUSINESS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Visit Kadtech | Old Banex Plaza, Wuse 2, Abuja",
   description:
-    "Kadtech Innovative Solutions Limited — Shop FC1143, Old Banex Plaza, 2nd Floor, By Access Bank, Wuse 2, Abuja.",
+    "Kadtech Innovative Solutions Limited — Shop FC11, Old Banex Plaza, 2nd Floor, By Access Bank, Wuse 2, Abuja.",
   alternates: { canonical: "/store" },
 };
 

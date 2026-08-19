@@ -18,10 +18,10 @@ export const BUSINESS = {
   rcNumber: "RC 9098441",
   tagline: "BUY. SELL. SWAP. FIX.",
   address: {
-    line1: "Shop FC1143, Old Banex Plaza",
+    line1: "Shop FC11, Old Banex Plaza",
     line2: "2nd Floor, By Access Bank",
     line3: "Wuse 2, Abuja, Nigeria",
-    full: "Shop FC1143, Old Banex Plaza, 2nd Floor, By Access Bank, Wuse 2, Abuja, Nigeria",
+    full: "Shop FC11, Old Banex Plaza, 2nd Floor, By Access Bank, Wuse 2, Abuja, Nigeria",
   },
   // Verified by the client on 2026-08-09.
   contact: {

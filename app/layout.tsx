@@ -49,7 +49,7 @@ const localBusinessJsonLd = {
   email: BUSINESS.contact.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Shop FC1143, Old Banex Plaza, 2nd Floor, By Access Bank",
+    streetAddress: "Shop FC11, Old Banex Plaza, 2nd Floor, By Access Bank",
     addressLocality: "Wuse 2, Abuja",
     addressCountry: "NG",
   },

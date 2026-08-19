@@ -41,15 +41,32 @@ export default function ProductCard({ product }: { product: Product }) {
           <span className="absolute top-3 right-3 placeholder-tag">Sample listing</span>
         )}
       </div>
-      <div className="mt-4">
-        <div className="font-display text-base text-charcoal group-hover:text-midnight transition-colors">
+      <div style={{ marginTop: "1rem" }}>
+        <div
+          className="font-display text-charcoal group-hover:text-midnight transition-colors line-clamp-1 truncate"
+          style={{ fontSize: "1rem", display: "block" }}
+          title={product.name}
+        >
           {product.name}
         </div>
-        <div className="flex items-center justify-between gap-2 mt-1">
-          <div className="text-xs text-charcoal/50 font-body uppercase tracking-wide">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "0.5rem",
+            marginTop: "0.35rem",
+            width: "100%",
+          }}
+        >
+          <div className="text-charcoal/50 font-body uppercase tracking-wide truncate" style={{ fontSize: "0.75rem" }}>
             {product.category}
           </div>
-          <div className="font-body text-sm text-charcoal whitespace-nowrap shrink-0">
+          <div
+            className="font-body text-charcoal"
+            style={{ fontSize: "0.875rem", whiteSpace: "nowrap", flexShrink: 0 }}
+          >
             {formatPrice(product.price)}
           </div>
         </div>
